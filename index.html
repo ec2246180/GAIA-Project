@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv=”X-UA-Compatible” content=”ie=edge”>
+    <meta name="description" content="GAIA is your online hub for all things environment! Join our community dedicated to making a positive impact on the planet. From daily habits to global initiatives, GAIA guides and inspires you to contribute to a greener future. Every click, share, and mindful choice counts. Let's celebrate our planet's beauty, explore eco-friendly solutions, and be stewards of the Earth. GAIA is not just a website; it's a call to action – your choices matter, and together, we can make a difference!">
+    <meta name="keywords" content="environment, earth, planet, climate, change, global, warming, pollution, green, eco, friendly, sustainable, future, nature, wildlife, animals, plants, trees, forest, sea, ocean, desert, weather, climate, change, global, warming, pollution, green, eco, friendly, sustainable, future, nature, wildlife, animals, plants, trees, forest, sea, ocean, desert, weather">
+    <meta name="author" content="muneeb">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>GAIA</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <a href="index.html"><h2 class="logo">GAIA</h2></a>
+          <div class="toggle">
+          </div>
+        </header>
+        <video src="videos/background.mp4" video title="Background of windfarms" muted loop autoplay></video>
+        <div class="overlay"></div>
+        <div class="text">
+          <h2>GAIA</h2>
+          <h3>Explore the world</h3>
+          <p>Welcome to GAIA – your online hub for all things environment! Join our community dedicated to making a positive impact on the planet. 
+            From daily habits to global initiatives, GAIA guides and inspires you to contribute to a greener future. Every click, share, and mindful choice counts. 
+            Let's celebrate our planet's beauty, explore eco-friendly solutions, and be stewards of the Earth. 
+            GAIA is not just a website; it's a call to action – your choices matter, and together, we can make a difference!</p>
+            <a href="https://www.bbcearth.com/" target="_blank">Explore</a>
+        </div>
+
+       <div class="container">
+         <iframe width="100%" height="100%" src="https://www.youtube.com/embed/_CIPLOajR58?si=yNVKL1x81PMkiPo6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+       </div>
+        <ul class="social">
+          <li><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook image"></a></li>
+          <li><a href="https://twitter.com/home"><img src="images/twitter.png" alt="twitter image"></a></li>
+          <li><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="insta picture"></a></li>
+        </ul>
+      </section>
+      <div class="menu">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="sea.html">The Sea</a></li>
+          <li><a href="weather.html">Weather</a></li>
+          <li><a href="forest.html">The Forest</a></li>
+          <li><a href="desert.html">The Desert</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+  
+        menuToggle.addEventListener('click', () => {
+          menuToggle.classList.toggle('active');
+          showcase.classList.toggle('active');
+        })
+    </script>
+</body>
+</html>

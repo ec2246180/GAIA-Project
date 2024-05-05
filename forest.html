@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv=”X-UA-Compatible” content=”ie=edge”>
+    <meta name="description" content="GAIA is your online hub for all things environment! Join our community dedicated to making a positive impact on the planet. From daily habits to global initiatives, GAIA guides and inspires you to contribute to a greener future. Every click, share, and mindful choice counts. Let's celebrate our planet's beauty, explore eco-friendly solutions, and be stewards of the Earth. GAIA is not just a website; it's a call to action – your choices matter, and together, we can make a difference!">
+    <meta name="keywords" content="environment, earth, planet, climate, change, global, warming, pollution, green, eco, friendly, sustainable, future, nature, wildlife, animals, plants, trees, forest, sea, ocean, desert, weather, climate, change, global, warming, pollution, green, eco, friendly, sustainable, future, nature, wildlife, animals, plants, trees, forest, sea, ocean, desert, weather">
+    <meta name="author" content="muneeb">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>Forest</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <a href="index.html"><h2 class="logo">GAIA</h2></a>
+          <div class="toggle">
+          </div>
+        </header>
+        <video src="videos/Forest2.mp4" muted loop autoplay></video>
+        <div class="overlay" style="background-color: rgb(75, 133, 133);"></div>
+        <div class="text">
+          <h2>The Forest</h2>
+          <h3>Save The Forests</h3>
+          <p>Forests are home to more than half of the world’s land-based species of animals, plants and insects.
+             They also combat climate change and buffer the impacts of storms and floods. By feeding our rivers,
+              forests supply drinking water for nearly half of the world’s largest cities.
+             They also provide shelter, jobs and security for forest-dependent populations.</p>
+            <a href="https://www.bbcearth.com/our-green-planet">Explore</a>
+        </div>
+
+        <div class="container-box3">
+          <div class="glass-card3">
+            <div class="content3">
+              <img src="images/Forest-1.jpg" alt="Forest">
+              <h3>Why Forests Matter</h3>
+              <p>Forests are not just beautiful; they're crucial for our planet's health. 
+                They offer food and shelter to a wide range of life,
+                 from tiny creatures to big animals like tigers and elephants.
+                 Over half of the world's land plants and animals depend on forests.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container-box3">
+          <div class="glass-card3">
+            <div class="content3">
+              <img src="images/Forest-2.jpeg" alt="Forest">
+              <h3>Why Forests are so important for the climate</h3>
+              <p>Forests are the largest storehouses of carbon after the oceans,
+                 as they absorb this greenhouse gas from the air and lock it away above and below ground. As the impacts of climate change
+                  become more frequent and severe, forests can provide a crucial buffer for our communities.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container-box3">
+          <div class="glass-card3">
+            <div class="content3">
+              <img src="images/Forest-3.jpg" alt="Forest">
+              <h3>Why deforestation Matter</h3>
+              <p>There are some 250 million people who live in forest and savannah areas and depend on them for subsistence
+                 and income—many of them among the world’s rural poor. Eighty percent of Earth’s land animals and plants live in forests,
+                  and deforestation threatens species including the orangutan, Sumatran tiger, and many species of birds.</p>
+            </div>
+          </div>
+        </div>
+
+       
+        <ul class="social">
+          <li><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook image"></a></li>
+          <li><a href="https://twitter.com/home"><img src="images/twitter.png" alt="twitter image"></a></li>
+          <li><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="insta picture"></a></li>
+        </ul>
+       
+       
+      </section>
+      <div class="menu5">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="Sea.html">The Sea</a></li>
+          <li><a href="Weather.html">Weather</a></li>
+          <li><a href="Forest.html">The Forest</a></li>
+          <li><a href="Desert.html">The Desert</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+<script>
+  const menuToggle = document.querySelector('.toggle');
+  const showcase = document.querySelector('.showcase');
+
+  menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    showcase.classList.toggle('active');
+  })
+</script>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".glass-card3"), {
+        max: 25,
+        speed: 400
+      });
+      </script>
+</body>
+
+</html>

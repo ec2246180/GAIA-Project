@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv=”X-UA-Compatible” content=”ie=edge”>
+    <meta name="description" content="GAIA is your online hub for all things environment! Join our community dedicated to making a positive impact on the planet. From daily habits to global initiatives, GAIA guides and inspires you to contribute to a greener future. Every click, share, and mindful choice counts. Let's celebrate our planet's beauty, explore eco-friendly solutions, and be stewards of the Earth. GAIA is not just a website; it's a call to action – your choices matter, and together, we can make a difference!">
+    <meta name="keywords" content="environment, earth, planet, climate, change, global, warming, pollution, green, eco, friendly, sustainable, future, nature, wildlife, animals, plants, trees, forest, sea, ocean, desert, weather, climate, change, global, warming, pollution, green, eco, friendly, sustainable, future, nature, wildlife, animals, plants, trees, forest, sea, ocean, desert, weather">
+    <meta name="author" content="muneeb">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>Desert</title>
+</head>
+<body>
+   
+    <section class="showcase">
+        <header>
+          <a href="index.html"><h2 class="logo">GAIA</h2></a>
+          <div class="toggle">
+          </div>
+        </header>
+        <video src="videos/Desert.mp4" muted loop autoplay></video>
+        <div class="overlay" style="background-color: rgb(75, 133, 133);"></div>
+        <div class="text">
+          <h2>The Desert</h2>
+          <h3>Explore the Desert</h3>
+          <p>Deserts, often described as hot, dry, or empty, are not empty. 
+            They are home to various plants,
+             animals, and organisms, 
+            and have been adapted to life in deserts for thousands of years.Deserts are arid areas with less than 25 centimeters of precipitation per year,
+             often exceeding annual rainfall. They cover one-fifth of Earth's land and are home to around 1 billion people,
+             making them one-sixth of the Earth's population.</p>
+            <a href="https://www.bbcearth.com/news/extreme-deserts-with-peter-coskun" target="_blank">Explore</a>
+        </div>
+
+        <div class="container-box2">
+          <div class="glass-card2">
+            <div class="content2">
+              <img src="images/pic-4.png" alt="Desert">
+              <h3>Threats</h3>
+              <p>
+                Global warming causes more droughts,drying up water holes.
+                 Rising temperatures lead to more wildfires, changing deserts by replacing slow-growing trees with fast-growing grasses. 
+                 Grazing animals can destroy desert plants and 
+                 gold mining with potassium cyanide may poison wildlife.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container-box2">
+          <div class="glass-card2">
+            <div class="content2">
+              <img src="images/pic-2.png" alt="Desert">
+              <h3>Solutions</h3>
+              <p>To improve dry areas, we can use water more efficiently.
+                Rotating crops and planting bushes and trees can protect the soil.
+                 Leguminous plants help restore soil fertility by extracting nitrogen from the air.</p>
+            </div>
+          </div>
+        </div>
+        <div class="container-box2">
+          <div class="glass-card2">
+            <div class="content2">
+              <img src="images/pic-3.png" alt="Desert">
+              <h3>Growing Deserts</h3>
+              <p>Global warming can harm hot deserts, even though they're already very hot. 
+                ` reSmall changes in temperature and rainfall can affect desert plants and animals.
+                 Experts say global warming might make deserts cover more of the Earth.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <ul class="social2">
+          <li><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook image"></a></li>
+          <li><a href="https://twitter.com/home"><img src="images/twitter.png" alt="twitter image"></a></li>
+          <li><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="insta picture"></a></li>
+        </ul>
+       
+       
+      </section>
+      <div class="menu2">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="Sea.html">The Sea</a></li>
+          <li><a href="Weather.html">Weather</a></li>
+          <li><a href="Forest.html">The Forest</a></li>
+          <li><a href="Desert.html">The Desert</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+  
+        menuToggle.addEventListener('click', () => {
+          menuToggle.classList.toggle('active');
+          showcase.classList.toggle('active');
+        })
+    </script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".glass-card2"), {
+        max: 25,
+        speed: 400
+      });
+      </script>
+
+       
+</body>
+</html>

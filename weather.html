@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv=”X-UA-Compatible” content=”ie=edge”>
+    <meta name="description" content="GAIA is your online hub for all things environment! Join our community dedicated to making a positive impact on the planet. From daily habits to global initiatives, GAIA guides and inspires you to contribute to a greener future. Every click, share, and mindful choice counts. Let's celebrate our planet's beauty, explore eco-friendly solutions, and be stewards of the Earth. GAIA is not just a website; it's a call to action – your choices matter, and together, we can make a difference!">
+    <meta name="keywords" content="environment, earth, planet, climate, change, global, warming, pollution, green, eco, friendly, sustainable, future, nature, wildlife, animals, plants, trees, forest, sea, ocean, desert, weather, climate, change, global, warming, pollution, green, eco, friendly, sustainable, future, nature, wildlife, animals, plants, trees, forest, sea, ocean, desert, weather">
+    <meta name="author" content="muneeb">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <title>Weather</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+          <a href="index.html"><h2 class="logo">GAIA</h2></a>
+          <div class="toggle">
+          </div>
+        </header>
+        <video src="videos/Weather.mp4"  video title="Weather Timelapse" muted loop autoplay></video>
+        <div class="overlay" style="background-color: rgb(75, 133, 133);"></div>
+        <div class="text">
+            <h2>Weather</h2>
+            <h3>Save the Earth</h3>
+            <p>Human-induced climate change is causing widespread changes in weather patterns, 
+              including increased frequency and intensity of extreme weather events like heat waves and large storms.</p>
+              <a href="https://www.bbc.co.uk/programmes/p08xc2xh">Explore</a>
+          </div>
+
+          <div class="container-box5">
+            <div class="glass-card5">
+              <div class="content5">
+                <img src="images/Weather-1.jpg" alt="Sea">
+                <h3>Effects Of Climate Change</h3>
+                <p>Climate change is already having visible effects on the world. The effects of climate change are real, and they are already happening.
+
+                  The level of climate change we will see depends on how quickly we cut emissions of dangerous greenhouse gases.</p>
+              </div>
+            </div>
+          </div>
+          <div class="container-box5">
+            <div class="glass-card5">
+              <div class="content5">
+                <img src="images/Weather-2.jpg" alt="Sea">
+                <h3>Impacts Of Climate Change</h3>
+                <p>Our climate system is finely balanced, and small changes can have significant consequences.In a recent report,
+                   the Intergovernmental Panel on Climate Change (IPCC) showed the difference between 1.5°C and 2°C of global warming.</p>
+              </div>
+            </div>
+          </div>
+          <div class="container-box5">
+            <div class="glass-card5">
+              <div class="content5">
+                <img src="images/Weather-3.jpg" alt="Sea">
+                <h3>Effects Of Climate Change On Humans</h3>
+                <p>600 million of these people live in a 'low-level coastal zone', and 200 million on a coastal flood plain.
+                  Even if we cut emissions, sea levels will continue to rise until the year 2100. But, if we reduce emissions enough, we can slow the rate of increase.</p>
+              </div>
+            </div>
+          </div>
+
+
+       
+        <ul class="social">
+          <li><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="facebook image"></a></li>
+          <li><a href="https://twitter.com/home"><img src="images/twitter.png" alt="twitter image"></a></li>
+          <li><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="insta picture"></a></li>
+        </ul>
+       
+       
+      </section>
+      <div class="menu5">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="sea.html">The Sea</a></li>
+          <li><a href="weather.html">Weather</a></li>
+          <li><a href="forest.html">The Forest</a></li>
+          <li><a href="desert.html">The Desert</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+<script>
+  const menuToggle = document.querySelector('.toggle');
+  const showcase = document.querySelector('.showcase');
+
+  menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    showcase.classList.toggle('active');
+  })
+</script>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelectorAll(".glass-card5"), {
+        max: 25,
+        speed: 400
+      });
+      </script>
+</body>
+</html>
